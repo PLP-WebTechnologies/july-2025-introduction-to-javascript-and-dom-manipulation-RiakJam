@@ -1,6 +1,5 @@
-// =============================
+
 // Part 1: Variables & Conditionals
-// =============================
 let number = 7;
 let message = "";
 
@@ -11,9 +10,8 @@ if (number % 2 === 0) {
 }
 console.log(message);
 
-// =============================
+
 // Part 2: Custom Functions
-// =============================
 
 // Function 1: Check if a number is positive, negative, or zero
 function checkNumber(num) {
@@ -34,9 +32,8 @@ function sumArray(arr) {
 console.log("Check Number (5):", checkNumber(5));
 console.log("Sum of [1,2,3,4]:", sumArray([1,2,3,4]));
 
-// =============================
 // Part 3: Loops
-// =============================
+
 
 // Loop 1: For loop
 for (let i = 1; i <= 5; i++) {
@@ -50,9 +47,9 @@ while (count < 3) {
   count++;
 }
 
-// =============================
+
 // Part 4: DOM Interactions
-// =============================
+
 
 // 1. Changing content dynamically
 document.getElementById("status").textContent = "Ready to interact!";
